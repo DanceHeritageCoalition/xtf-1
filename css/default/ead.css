@@ -1,5 +1,6 @@
 /* dynaXML CONTENT stylesheet for EAD */
 
+@import url("bootstrap.css");
 @import url("content.css");
 
 body {

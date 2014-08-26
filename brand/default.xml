@@ -5,11 +5,13 @@
    <links>
       <link rel="stylesheet" href="css/default/results.css" type="text/css"/>
 	  <link rel="shortcut icon" href="icons/default/favicon.ico" />
+      <link rel="stylesheet" href="css/default/bootstrap.css" type="text/css"/>
    </links>
    
    <dynaxml.links>
-      <link rel="stylesheet" href="css/default/content.css" type="text/css"/>
       <link rel="shortcut icon" href="icons/default/favicon.ico" />
+   <link rel="stylesheet" href="css/default/results.css" type="text/css"/>
+      <link rel="stylesheet" href="css/default/bootstrap.css" type="text/css"/>
 
 
    </dynaxml.links>

@@ -176,6 +176,7 @@
          <html xml:lang="en" lang="en">
             <head>
                <link rel="stylesheet" type="text/css" href="{$css.path}ead.css"/>
+               <link rel="stylesheet" type="text/css" href="{$css.path}bootstrap.css"/>
                <link rel="shortcut icon" href="icons/default/favicon.ico" />
 
                

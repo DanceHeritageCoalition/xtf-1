@@ -44,6 +44,7 @@
             
             <link rel="stylesheet" type="text/css" href="{$css.path}ead.css"/>
             
+            <link rel="stylesheet" type="text/css" href="{$css.path}bootstrap.css"/>
             <title>
                <xsl:value-of select="eadheader/filedesc/titlestmt/titleproper"/>
                <xsl:text>  </xsl:text>
@@ -53,16 +54,6 @@
             <xsl:call-template name="metadata"/>
          </head>
          <body>
-            
-            <!--This part of template inserts a logo and title
-               at the top of the display.  Insert the proper path ro
-               your image in place of yourlogo.gif.-->
-            
-            <!--If you do not want to include an image, delete the center
-               element and its contents.-->
-            <center>
-               <img src="yourlogo.gif"></img>
-            </center>
             
             <xsl:choose>
                <xsl:when test="$chunk.id = 'headerlink'">
