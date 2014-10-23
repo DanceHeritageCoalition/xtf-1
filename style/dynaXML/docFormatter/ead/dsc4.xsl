@@ -354,13 +354,13 @@
          <!--The next two variables define the set of container types that
             may appear in the first column of a two column container list.
             Add or subtract container types to fix institutional practice.-->
-         <xsl:variable name="first" select="container[@type='Box' or @type='Oversize' or @type='Volume' or @type='Carton' or @type='box' or @type='oversize' or @type='volume' or @type='carton']"/>
-         <xsl:variable name="preceding" select="preceding::did[1]/container[@type='Box' or @type='Oversize' or @type='Volume' or @type='Carton' or @type='Reel' or @type='box' or @type='oversize' or @type='volume' or @type='carton' or @type='reel']"/>
+         <xsl:variable name="first" select="container[@type='Box' or @type='Oversize' or @type='Volume' or @type='Carton' or @type='box' or @type='oversize' or @type='volume' or @type='carton' or @type='Box-folder' or @type="box-folder" or @type='Boxes or @type='boxes']"/>
+         <xsl:variable name="preceding" select="preceding::did[1]/container[@type='Box' or @type='Oversize' or @type='Volume' or @type='Carton' or @type='Reel' or @type='box' or @type='oversize' or @type='volume' or @type='carton' or @type='reel' or @type='Box-folder' or @type="box-folder" or @type='Boxes or @type='boxes']"/>
          
          <!--This variable defines the set of container types that
             may appear in the second column of a two column container list.
             Add or subtract container types to fix institutional practice.-->
-         <xsl:variable name="second" select="container[@type='Folder' or @type='Frame' or @type='Page'  or @type='Reel' or @type='folder' or @type='frame' or @type='page' or @type='reel']"/>
+         <xsl:variable name="second" select="container[@type='Folder' or @type='Folders' or @type='folders' or @type='Frame' or @type='Page'  or @type='Reel' or @type='folder' or @type='frame' or @type='page' or @type='reel']"/>
          
          <xsl:choose>
             <!--When the container value or the container type of the first
